@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'letra reta';
+    src: url('WDXLLubrifontTC-Regular.ttf') format('opentype');
+    font-family: 'blodborne';
+    src: url('Fleshandblood-MVA5x.ttf') format('TrueType');
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    gap: 60px;
+}
+a {
+    text-decoration: none;
+    font-family: 'blodborne';
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px red hidden;
+    text-align: center;
+}
+a:hover {
+ border: 1px red solid;
+ transition: 0.5s;
+ font-size: 25px;
+}
+ 
+.escritas {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+.color {
+    margin-top: 30px;
+    color: antiquewhite;
+    font-family: 'letra reta';
+    font-size: 100px;
+}
+.gif1 {
+    width: 240px;
+    height: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+.arto {
+    width: 220px;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+}
+.Shadow {
+    width: 220px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: top;
+    left: 0;
+}
+.jojo {
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+}
+p {
+    font-family: 'blodborne';
+}
+h1 {
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'letra reta';
+    font-size: 50px;
+}
+.introduçao {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.rosto {
+    background-image: url(IMG-20250613-WA0003.png);
+    background-size: cover;
+    height: 300px;
+    width: 700px;
+    border: solid, rgb(255, 0, 0), 4px;}
+.rosto:hover {
+    height: 610px;
+    width: 700px;
+    transition: 500ms;
+}
+.texto1 {
+    height: 600px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border: solid, color-mix(in srgb, red, red 50%), 4px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.texto1:hover {
+    height: 610px;
+    width: 700px;
+    font-size: 25px;
+    transition: 0.30s;
+    text-align: center;
+}
+
+.jogos {
+    background-image: url("jogador-de-vista-lateral-sentado-na-cadeira.jpg");
+    background-repeat: no-repeat;
+    border: rgb(29, 0, 0), 6px, solid;
+    background-size: cover;
+    width: 99.6%;
+    height: 800px;
+    margin-top: 10px;
+    display: flex;
+}
+.tituloH {
+    font-family: 'letra reta';
+    font-size: 100px;
+    position: relative;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.ps {
+    font-family: 'letra reta';
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    right: 15%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.persona {
+    width: 100%;
+    height: 100%;
+    
+    opacity: 1; 
+    transition: opacity 3.3s ease-in-out;}
+.persona:hover {
+    opacity: 0;
+}
+.transparent {
+    color: transparent;
+}
+.favoritos {
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: solid, white, 4px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.hobbies {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.dante {
+    height: 700px;
+    width: 900px;
+}
+.grupo {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(34, 29, 29);
+    font-size: 20px;
+}
+.imagemgrupo {
+    width: 85%;
+    height: 700px;
+    display: inline-block;
+}
+.historia {
+    width: 500px;
+    height: 500px;
+    word-wrap: break-word;
+    color: white;
+    gap: 30px;
+}
+.textos2 {
+    gap: 40px;
+}
